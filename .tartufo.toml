@@ -1,0 +1,9 @@
+[tool.tartufo]
+cleanup = true
+json = false
+regex = true
+entropy = true
+exclude-path-patterns = [
+  { path-pattern = 'Cargo.lock' },
+]
+exclude-signatures = []
